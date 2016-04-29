@@ -10,9 +10,10 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\ProductBundle\Manager\Admin;
+namespace WellCommerce\Bundle\ProductBundle\Manager;
 
 use Symfony\Component\Validator\Exception\ValidatorException;
+use WellCommerce\Bundle\CoreBundle\Manager\AbstractManager;
 use WellCommerce\Bundle\CoreBundle\Manager\Admin\AbstractAdminManager;
 use WellCommerce\Bundle\ProductBundle\Entity\ProductInterface;
 use WellCommerce\Bundle\ProductBundle\Exception\ProductNotFoundException;
@@ -22,7 +23,7 @@ use WellCommerce\Bundle\ProductBundle\Exception\ProductNotFoundException;
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class ProductManager extends AbstractAdminManager
+class ProductManager extends AbstractManager
 {
     /**
      * Updates the product data

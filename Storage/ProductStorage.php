@@ -10,16 +10,16 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\ProductBundle\Context\Front;
+namespace WellCommerce\Bundle\ProductBundle\Storage;
 
 use WellCommerce\Bundle\ProductBundle\Entity\ProductInterface;
 
 /**
- * Class ProductContext
+ * Class ProductStorage
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class ProductContext implements ProductContextInterface
+class ProductStorage implements ProductStorageInterface
 {
     /**
      * @var ProductInterface

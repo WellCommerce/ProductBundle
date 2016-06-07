@@ -3,28 +3,24 @@ WellCommerce\Bundle\ProductBundle\Entity\Product\Photo:
         id:
             groups:
                 - default
-                - product_photo
+                - photo
         mainPhoto:
             groups:
                 - default
-                - product_photo
+                - photo
         hierarchy:
             groups:
                 - default
-                - product_photo
+                - photo
         createdAt:
-            groups:
-                - default
-                - product_photo
+            groups: {  }
         updatedAt:
-            groups:
-                - default
-                - product_photo
+            groups: {  }
     associations:
         photo:
             groups:
-                - product_photo
+                - photo
         product:
             groups:
-                - product_photo
+                - photo
     callbacks: {  }

@@ -3,17 +3,17 @@ WellCommerce\Bundle\ProductBundle\Entity\Product\Route:
         id:
             groups:
                 - default
-                - product_route
+                - route
         path:
             groups:
                 - default
-                - product_route
+                - route
         locale:
             groups:
                 - default
-                - product_route
+                - route
     associations:
         identifier:
             groups:
-                - product_route
+                - route
     callbacks: {  }

@@ -6,10 +6,7 @@
 # For the full copyright and license information,
 # please view the LICENSE file that was distributed with this source code.
 
-_admin:
-    resource: "@WellCommerceProductBundle/Resources/config/routing/admin.yml"
-    prefix: /admin/catalog/product
-
-_front:
-    resource: "@WellCommerceProductBundle/Resources/config/routing/front.yml"
-    prefix: /product
+front.product.view:
+    path: '/view/{id}'
+    defaults:
+        _controller: 'product.controller.front:viewAction'
